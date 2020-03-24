@@ -117,7 +117,13 @@
     </dependency>
 
   </dependencies>
-
+<repositories>
+         <!-- used to get macnificent -->
+         <repository>
+            <id>martiansoftware</id>
+            <url>http://mvn.martiansoftware.com</url>
+         </repository>
+    </repositories>
   <build>
     <plugins>
       <plugin>
